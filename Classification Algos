@@ -1,0 +1,8 @@
+1.While creating a decision tree,we must select the attribute as a root node with zero or minimum value of information as it leads to maximum information gain.An 
+attribute that gives the largest information gain must be select as the next split attribute.
+2.Although information gain can be used to measure the significance of an attribute, it is biased toward choosing attributes with a large number of distinct values.
+An attribute with many values will divide the dataset into many small sets and this problem is known as fragmentation.
+3.Gini index is computationally less intensive when compared to information gain as it do not have logarithm function.Gini index facilitates big distributions, while
+information gain facilitates small distributions.
+4.A sample drawn with replacement is called a bootstrap sample in a random forest.Each decision tree in the ensemble is built by creating a bootstrap sample from the 
+training set.
