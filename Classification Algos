@@ -1,8 +1,36 @@
 1.While creating a decision tree,we must select the attribute as a root node with zero or minimum value of information as it leads to maximum information gain.An 
 attribute that gives the largest information gain must be select as the next split attribute.
+
 2.Although information gain can be used to measure the significance of an attribute, it is biased toward choosing attributes with a large number of distinct values.
 An attribute with many values will divide the dataset into many small sets and this problem is known as fragmentation.
+
 3.Gini index is computationally less intensive when compared to information gain as it do not have logarithm function.Gini index facilitates big distributions, while
 information gain facilitates small distributions.
+
 4.A sample drawn with replacement is called a bootstrap sample in a random forest.Each decision tree in the ensemble is built by creating a bootstrap sample from the 
 training set.
+
+5.Naive Bayes is called naive because it assumes that each input variable is independent.This is naive because it is almost never true.However,this techinque is still 
+very effective on many complex problems.
+
+6.Laplace estimator has been used to handle the case of zero probabilties which commonly occurs due to less training data.It adds a value of 1 to each count of attribute
+values.
+
+7.The Logistic function or the sigmoid function is an S-shaped curve that can take any real valued number and map it into a value between 0 and 1.Since this is a regression
+concept tweaked into classification,it is called logistic regression,but always remember this is a classifier,not a regressor.
+
+8.A confusion matrix is an N x N table that summarizes the accuracy of a classification model's predictions.Here, N indicates the number of output classes.For binary 
+classification N is 2.
+
+9.Precision gives proportion of samples that a model classified correctly when predicting the positive class.
+
+10.Recall gives proportion of possible positive labels that the model identified correctly.
+
+11.SVM is based on identifying data points or vectors that have similar characteristics but belong to different classes and creating a separation line between these
+data points;these data points or vectors are called support vectors.These are data points that are closer to the hyperplane and influence the position and orientation
+of the hyperplane.Using these support vectors, we maximize the margin of the classifier.
+
+12.With the aid of kernels,we can transform data points from dimension D to another dimension D'(D < D'). We use kernel functions by defining an implicit feature
+map i.e. we do not have to get into the complexity of finding appropriate functions to map data points to higher dimensions.
+
+:-)  Keep Learning Buddy!!!
