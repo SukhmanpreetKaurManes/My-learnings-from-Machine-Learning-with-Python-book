@@ -2,4 +2,6 @@
 since calculating the distance between points resembles travelling in a taxi in square blocks of Manhattan.The name "Manhattan" is derived from the grid layout of most 
 streets in Manhattan Island.The shortest path a car could take between two intersections in Manhattan streets has a length equal to intersection.
 
-2.
+2.In KNN, if the euclidean distance of a data point from different centroids is equal,assign data point to cluster with less variance after adding data point.
+
+3.KNN aims to create clusters having maximum inter(between) cluster variance or distance and minimum intra(within) cluster variance or distance.
