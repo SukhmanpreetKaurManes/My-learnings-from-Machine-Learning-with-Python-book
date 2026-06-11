@@ -5,3 +5,10 @@ streets in Manhattan Island.The shortest path a car could take between two inter
 2.In KNN, if the euclidean distance of a data point from different centroids is equal,assign data point to cluster with less variance after adding data point.
 
 3.KNN aims to create clusters having maximum inter(between) cluster variance or distance and minimum intra(within) cluster variance or distance.
+
+4.In agglomerative clustering,in first step distance metric is calculated with help of manhattan or any other distance.In next iterations when clusters are formed
+linkage methods are used to update distance matric.The clusters are formed for least value of distance in each step.
+
+5.In divisive clustering,cluster is partitioned repetitively based on differences until all clusters have a single instance or data point.Pick up tow objects with
+largest distance,these two objects become seed records of two new clusters.Split the entire group into two clusters based on distances in distance matrix.Until stopping
+criterion is not met,keep on splitting larger cluster.
