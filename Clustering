@@ -12,3 +12,7 @@ linkage methods are used to update distance matric.The clusters are formed for l
 5.In divisive clustering,cluster is partitioned repetitively based on differences until all clusters have a single instance or data point.Pick up tow objects with
 largest distance,these two objects become seed records of two new clusters.Split the entire group into two clusters based on distances in distance matrix.Until stopping
 criterion is not met,keep on splitting larger cluster.
+
+6.Partition based and heirarchical based clustering work efficiently for normal shaped-clusters.But, when the dataset contains random shaped clusters or includes noise/
+outliers,then the density based clustering technique is more efficient.Density based clustering is also called DBSCAN(Density Based Spatial Clustering of Applications
+with Noise).This method works on principle that clusters are dense regions in space separated from other clusters by lower density regions.
