@@ -1,0 +1,16 @@
+1.Association rule mining is defined as ML models to analyse information and find patterns, associations, casual structures and correlations among sets of objects
+or items in transactional databases, relational databases, and other information repositories.
+
+2.An antecedent is an object or item found in data,while a consequent is an object or item found in combination with the antecedent.
+
+3.Association rules are represented as X->Y,which means Y tends to appear when X appears.
+
+4.Support represents amount of historical data that supports association rule.
+
+5.Confidence indicates likelihood of purchasing products X and Y together.
+
+6.Lift is confidence ratio to the unconditional probability of the consequent.
+
+7.Apriori Algorithm's 2 phases :
+i.Phase 1: Identification of frequent itemsets.
+ii.Phase 2: Identificatio of association rules from the frequent itemsets.
