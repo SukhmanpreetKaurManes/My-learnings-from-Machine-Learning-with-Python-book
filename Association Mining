@@ -14,3 +14,5 @@ or items in transactional databases, relational databases, and other information
 7.Apriori Algorithm's 2 phases :
 i.Phase 1: Identification of frequent itemsets.
 ii.Phase 2: Identificatio of association rules from the frequent itemsets.
+
+8.Apriori property states that all the non-empty subsets of a frequent itemset must also be frequent.This property is used to prune first phase of Apriori algorithm.
