@@ -1,0 +1,12 @@
+1.If a neural network has only one hidden layer then neural network is called a perceptron.When we have multiple hidden layers for processing input layers data to
+the output layer,then ANN is called deep learning.
+
+2.Each input variable becomes the input node of the input layer of ANN,while number of output classes to be predicted becomes number of output nodes.
+
+3.In case of regression and binary classification a single output node is used.
+
+4.The neural network deals with only a single row at a time.
+
+5.ANN model is very sensitive to input attributes so input data should be preprocessed(scale, encode etc) carefully.
+
+6.By adjusting weights the neural network identifies importance of a signal from the neuron.
