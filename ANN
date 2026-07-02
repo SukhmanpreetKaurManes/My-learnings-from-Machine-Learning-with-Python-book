@@ -10,3 +10,10 @@ the output layer,then ANN is called deep learning.
 5.ANN model is very sensitive to input attributes so input data should be preprocessed(scale, encode etc) carefully.
 
 6.By adjusting weights the neural network identifies importance of a signal from the neuron.
+
+7. 3 Step Learning process of a neuron :
+   i. Calculate weighted sum.
+   ii. Apply activation function on weighted sum.Few types of activation function are:
+      1.Threshold function      2.Sigmoid function 
+      3.Rectified linear unit function      4.Hyperbolic tangent function
+   iii. Signal is passed to next neighbouring neuron.
