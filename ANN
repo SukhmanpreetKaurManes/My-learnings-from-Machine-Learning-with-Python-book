@@ -17,3 +17,13 @@ the output layer,then ANN is called deep learning.
       1.Threshold function      2.Sigmoid function 
       3.Rectified linear unit function      4.Hyperbolic tangent function
    iii. Signal is passed to next neighbouring neuron.
+
+8.One complete cycle of forwarding and backwarding propagation is known as an epoch.
+
+9.Approaches to find optimised weights to reduce cost function:
+i.Brute Force - impractical to use 
+ii.Gradient Descent - uses derivative of cost function  and learning rate to decide direction of movement and how much to move in each step respectively.but can get 
+stuck in local minima.
+iii.Stochastic Descent - finds all possible local minima points by finding best optimized weight for each row individually instead of finding optimized weight
+for whole block.but this is computationally expensive.
+iv.Mini-batch Method - the process is collectively done for some n records and repeated for each mini-batch.
