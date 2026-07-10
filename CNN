@@ -1,0 +1,18 @@
+1.The image is converted into a pixel matrix to feed an image to our model which is further converted into an array of numbers.
+
+2.The simple ANN classifier works perfectly in cases where digit is at the center of the image.Still, it fails to identify if the digit is slightly distorted or when
+placed at a different position in the image.
+
+3.It is part of the image or feature on which we are looking at deciding the impression created in the brain.
+
+4.A CNN model interprets a grayscale image as a 2-D array.Each array element corresponds to a pixel value ranging between 0(white color) and 255(black).
+
+5.The color images are represented as a 3-D array consisting of red, green, blue(RGB channels).By combining these channels, we get the pixel value of our colored
+image.Pixel values in each channel also lie between 0 and 255.
+
+6. 2 primary components of CNN model:
+  i. Convolutional part
+  ii. Final Classificatio part
+
+7.In general,CNN model works in following steps:
+  i. 
