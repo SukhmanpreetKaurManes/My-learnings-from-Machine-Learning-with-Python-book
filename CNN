@@ -15,4 +15,15 @@ image.Pixel values in each channel also lie between 0 and 255.
   ii. Final Classificatio part
 
 7.In general,CNN model works in following steps:
-  i. 
+  i. Convolution layer : It takes two inputs i) image matrix and ii) feature detector or filter or kernel. Convolution is a mathematical operation.The shifting of the
+     image patch extractor by one pixel is the stride.The feature maps are known as convolved features.Multiple feature detector convolves over the input image producing
+     a layer of feature maps which form a single convolutional layer.The neural network (not engineers) implicitly decides values of these filters used in a convolutional 
+     layer.The main objective of convolution is to find important features in the image.
+     -> Rectified Linear Unit(ReLU) introduces non-linearity to the network,allowing it to learn complex patterns and relationships in the data.
+  ii. Pooling : Firstly,it is used to capture the vital feature irrespective of their location or position.Secondly,it is used to reduce the size of the feature map,
+      which makes the processing faster by including important information only.Pooling also avoids overfitting.
+  iii. Flattening : The pooled feature maps are flattened into a 1D vector that inputs the subsequent ANN.
+  iv. Full Connection : This output is now connected to the final classification model,which acts as input of the fully connected ANN model.
+
+8.Two important guiding factors to determine the optimal number of epochs for a problem:
+  Validation error and Training error.
