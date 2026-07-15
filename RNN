@@ -1,0 +1,8 @@
+1. The basic idea of RNNs is to provide short-term memory to the neurons.Neurons are connected to themselves through time.This self-connection allows one to remeber
+the information that the neuron previously holds.Therefore,this connection helps pass the values a neuron holds to itself in the future to relate and analyze the information.
+
+2. The feed-forward network should not be used to predict the succeeding words of a sentence,as the output in this model is independent of the previous outputs.In case
+of RNN,output at a timestamp depends on the output's previous timestamps.Thus, ANNs designed to predict patterns in sequential data is known as RNNs.
+
+3. The main limitation of RNN is long-term dependencies.When the timestamp is too long,the propagation of information from all the previous timestamps is challenging.
+Further,this leads to issues like vanishing gradients and exploding gradients.
