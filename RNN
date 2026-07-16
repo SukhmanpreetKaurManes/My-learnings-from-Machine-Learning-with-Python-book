@@ -6,3 +6,21 @@ of RNN,output at a timestamp depends on the output's previous timestamps.Thus, A
 
 3. The main limitation of RNN is long-term dependencies.When the timestamp is too long,the propagation of information from all the previous timestamps is challenging.
 Further,this leads to issues like vanishing gradients and exploding gradients.
+
+4. If a network has n hidden layers,n derivatives are multiplied together during gradient descent.So, when derivates are very small , an exponential decrease of the 
+gradient value occurs as we traverse through model until it vanishes.This scenario is termed as the vanishing gradient problem.When the derivates are very large,an 
+exponential increase of the gradient value occurs as we traverse through the model until the gradient value explodes.This scenario is termed as exploding gradient 
+problem.
+
+5.LSTM(Long Short Term Memory) is a type of RNN architecture designed to overcome the limitations of traditional RNNs in capturing and retaining information from long
+sequences.
+
+6.LSTM uses cell state and gates inside a cell.The cell state acts as a transport highway that passes the relevant information as it traverses down the neural network.
+The cell state can be considered as the network's memory.It is primarily designed to carry the required information.It controls the effect of short-term memory.Gates
+will learn the relevant information during the training phase and forget the unnecessary information.
+
+7.The sigmoid function is used to keep or forget the information.
+
+8.The forget gate decides which information to forget or which information to remember or pass to the next stage.The input gate decides the amount of useful information 
+in the current input or information that needs to be added from the current step.Input gate and forget gate are used to calculate the current cell state.Finally,the 
+output gate calculates the current hidden state.
